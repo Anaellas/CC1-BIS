@@ -98,7 +98,7 @@ dadaFs <- dada(derepFs, err=errF, multithread=TRUE)
 dadaRs <- dada(derepRs, err=errR, multithread=TRUE)
 ```
 ```{r}
-dadaFs[[1]]
+dadaFs[[1]] 
 ```
 ```{r}
 # dadaFs: corrigé derepFS: cb de séq avant dereplication
